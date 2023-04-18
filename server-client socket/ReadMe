@@ -2,3 +2,9 @@ Soket programlama, birbiriyle iletişim kurmak için bir ağ üzerindeki iki dü
 Bir soket (düğüm), bir IP'deki belirli bir bağlantı noktasını dinlerken, diğer soket bir bağlantı oluşturmak için diğerine ulaşır. 
 İstemci sunucuya ulaşırken sunucu dinleyici soketini oluşturur.
 client.py & server.py dosyalarında bu soket programlama uygulanmıştır.
+
+Sunucu: 
+
+Bir sunucunun, onu belirli bir IP'ye ve bağlantı noktasına bağlayan bir bind() yöntemi vardır, böylece o IP ve bağlantı noktasından gelen istekleri dinleyebilir. 
+Bir sunucu, sunucuyu dinleme moduna sokan bir listen() yöntemine sahiptir. Bu, sunucunun gelen bağlantıları dinlemesini sağlar. Ve son olarak bir sunucunun accept()
+ve close() yöntemi vardır. accept yöntemi, istemciyle bir bağlantı başlatır ve close yöntemi, istemciyle bağlantıyı kapatır. 

@@ -28,4 +28,8 @@ def send(msg):
 
 send("Hello!") 
 input()
+send("I am Groot!") 
+input()
+send("And i am Grooooooot!") 
+input()
 send(DISCONNECT_MESSAGE)
